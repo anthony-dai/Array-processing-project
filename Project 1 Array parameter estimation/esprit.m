@@ -27,6 +27,6 @@ function theta = esprit(X, d)
     %phis = sort(diag(D), 'descend');
     phis = diag(D);
     tmp1 = log(phis);
-    tmp2 = 1j*tmp1/(2 * pi * 0.5);
+    tmp2 = -1j*tmp1/(2 * pi * 0.5);
     theta = real(asin(tmp2)) * 180 / pi;
 end
