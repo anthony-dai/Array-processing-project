@@ -1,1 +1,3 @@
-# Array-processing-project-1
+# Array-processing-project
+
+MATLAB code for the course Array processing EE4715
